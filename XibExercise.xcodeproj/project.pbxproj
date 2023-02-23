@@ -16,6 +16,8 @@
 		1CE406EF29A7B70A0052F4E6 /* XibExerciseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CE406EE29A7B70A0052F4E6 /* XibExerciseTests.swift */; };
 		1CE406F929A7B70A0052F4E6 /* XibExerciseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CE406F829A7B70A0052F4E6 /* XibExerciseUITests.swift */; };
 		1CE406FB29A7B70A0052F4E6 /* XibExerciseUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CE406FA29A7B70A0052F4E6 /* XibExerciseUITestsLaunchTests.swift */; };
+		1CE4070A29A7B79D0052F4E6 /* DetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CE4070829A7B79D0052F4E6 /* DetailTableViewCell.swift */; };
+		1CE4070B29A7B79D0052F4E6 /* DetailTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1CE4070929A7B79D0052F4E6 /* DetailTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		1CE406F429A7B70A0052F4E6 /* XibExerciseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XibExerciseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CE406F829A7B70A0052F4E6 /* XibExerciseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XibExerciseUITests.swift; sourceTree = "<group>"; };
 		1CE406FA29A7B70A0052F4E6 /* XibExerciseUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XibExerciseUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1CE4070829A7B79D0052F4E6 /* DetailTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailTableViewCell.swift; sourceTree = "<group>"; };
+		1CE4070929A7B79D0052F4E6 /* DetailTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,7 @@
 		1CE406D629A7B7070052F4E6 /* XibExercise */ = {
 			isa = PBXGroup;
 			children = (
+				1CE4070729A7B76A0052F4E6 /* Cell */,
 				1CE406D729A7B7070052F4E6 /* AppDelegate.swift */,
 				1CE406D929A7B7070052F4E6 /* SceneDelegate.swift */,
 				1CE406DB29A7B7070052F4E6 /* ViewController.swift */,
@@ -125,6 +130,15 @@
 				1CE406FA29A7B70A0052F4E6 /* XibExerciseUITestsLaunchTests.swift */,
 			);
 			path = XibExerciseUITests;
+			sourceTree = "<group>";
+		};
+		1CE4070729A7B76A0052F4E6 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				1CE4070829A7B79D0052F4E6 /* DetailTableViewCell.swift */,
+				1CE4070929A7B79D0052F4E6 /* DetailTableViewCell.xib */,
+			);
+			path = Cell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,6 +247,7 @@
 			files = (
 				1CE406E429A7B70A0052F4E6 /* LaunchScreen.storyboard in Resources */,
 				1CE406E129A7B70A0052F4E6 /* Assets.xcassets in Resources */,
+				1CE4070B29A7B79D0052F4E6 /* DetailTableViewCell.xib in Resources */,
 				1CE406DF29A7B7070052F4E6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -260,6 +275,7 @@
 			files = (
 				1CE406DC29A7B7070052F4E6 /* ViewController.swift in Sources */,
 				1CE406D829A7B7070052F4E6 /* AppDelegate.swift in Sources */,
+				1CE4070A29A7B79D0052F4E6 /* DetailTableViewCell.swift in Sources */,
 				1CE406DA29A7B7070052F4E6 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
