@@ -11,13 +11,11 @@ class DetailTableViewCell: UITableViewCell {
 
     @IBOutlet weak var imagem: UIImageView!
     @IBOutlet weak var nameLabel: UILabel!
-    
     static let identifier: String = "DetailTableViewCell"
     
     static func nib() -> UINib {
         return UINib(nibName: identifier, bundle: nil)
     }
-    
     
     override func awakeFromNib() {
         super.awakeFromNib()
